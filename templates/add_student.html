@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Add Student Data</h2>
+        <form  method="POST">
+            <div class="form-group">
+                <label for="name">Student Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter student name" required>
+            </div>
+            <div class="form-group">
+                <label for="roll_no">Roll Number:</label>
+                <input type="number" class="form-control" id="roll_no" name="roll_no" placeholder="Enter roll number" required>
+            </div>
+            <div class="form-group">
+                <label for="marks">Marks:</label>
+                <input type="number" step="1" class="form-control" id="marks" name="marks" placeholder="Enter marks" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Add Student</button>
+        </form>
+    </div>
+</body>
+</html>
